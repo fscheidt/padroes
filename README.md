@@ -1,5 +1,9 @@
 # Padrões de Projetos e Frameworks
 
+https://github.com/fscheidt/padroes
+
+
+
 ## 1. Conceitos de Programação OO
 
 Linguagem python:
@@ -14,3 +18,6 @@ Linguagem python:
 - Método estático
 - Herança
 - Classe abstrata (ABC)
+
+
+
