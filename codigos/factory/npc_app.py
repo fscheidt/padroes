@@ -3,6 +3,8 @@
 # NPC - Non-player character.
 from enum import Enum
 class NPC:
+  # definir o construtor e inicializar ataque
+  # __init__ ( forcaAtaque  )
   def atacar(): 
     pass
 
@@ -12,6 +14,7 @@ class Player:
     self.hp = hp
 
 class Dragon(NPC):
+  # init
   def atacar(self):
     print("ataque do dragon")
     # diminuir HP do Player
@@ -29,7 +32,7 @@ class NpcFactory:
   @staticmethod
   def create(type: NpcType):
     if type == NpcType.DRAGON:
-      return Dragon()
+      return Dragon(15)
     return Bowse()
 
 if __name__ == "__main__":
