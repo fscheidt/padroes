@@ -15,12 +15,14 @@ class Connection:
 if __name__ == "__main__":
   conn = Connection()
   conn.driver = "sqlite"
-  print(id(conn))
+  # id retorna o endereco de memoria
+  print(id(conn)) 
 
   conn2 = Connection()
   conn2.driver = "nosql"
   print(id(conn2))
-
+  # para validar o singleton id(conn) == id(conn2)
+  print(id(conn) == id(conn2)) # True
   print(conn.driver)
 
   # conn.execute("Select * from...")
@@ -30,4 +32,8 @@ class SiteConfiguration:
   """
   titulo, subtitulo, email, count
   """
-  pass
+  def __init__(self):
+    pass
+  def __new__(cls):
+    pass
+

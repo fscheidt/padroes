@@ -16,6 +16,7 @@ class Connection:
 ```
 
 ## Strategy
+
 Exemplo: Pagamento
 
 ```python
