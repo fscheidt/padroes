@@ -42,5 +42,5 @@ if __name__ == "__main__":
   # context.realiza_pagamento(boleto, 300)
 
   # 4. Implementar o CartaoStrategy
-  # pode parcelar, acrescenta +5%
+  # acrescenta +5%
   
