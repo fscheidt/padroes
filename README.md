@@ -6,6 +6,7 @@
 1. [Singleton](https://docs.google.com/presentation/d/e/2PACX-1vQzvZBNLXyLFQeKdxtOTGco1B25ZC2xwiAhZaRunq0dx0lYL1Q4YFzKZiArlvr-r_yoyvkoc4eh12_p/pub?start=false&loop=false&delayms=600000)
 1. [Strategy](https://docs.google.com/presentation/d/e/2PACX-1vQzvZBNLXyLFQeKdxtOTGco1B25ZC2xwiAhZaRunq0dx0lYL1Q4YFzKZiArlvr-r_yoyvkoc4eh12_p/pub?start=false&loop=false&delayms=600000)
 1. [Facade](https://docs.google.com/presentation/d/e/2PACX-1vTZBkCrbkuVdvMGseCJisJRLBMWKnOdMML0H-ssETJ4nqC41IjHFxjG9QhQz14CZsO5IncUBCyxOkEE/pub?start=false&loop=false&delayms=600000)
+1. [Observer](https://docs.google.com/presentation/d/e/2PACX-1vTp0VkrF5TgRL3Ao7pLUGjIOPeNse6lmZ_7n6nEdLwsmkGXKcJSGxMAQDflmkd73iza5b02BKf6cd6l/pub?start=false&loop=false&delayms=600000&slide=id.p1)
 
 ## Revisão conceitos de Programação OO
 
