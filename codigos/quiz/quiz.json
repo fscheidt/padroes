@@ -1,0 +1,8 @@
+{
+  "paises":
+  [
+    { "nome": "Brasil", "continente": "America" },
+    { "nome": "Espanha", "continente": "Europa" },
+    { "nome": "Chile", "continente": "America" }
+  ]
+}
