@@ -54,24 +54,4 @@ if __name__ == "__main__":
   app(ProdutoEstoque())
   app(Pagamento())
 
-
-"""
-Implementar um esquema de autenticacao (aka Login)
-- usuario fornece email e senha
-- Definir os passos para autenticar:
-  (1) verificar o login e senha no banco de dados; 
-  (2) salvar em um arquivo de log o email do usuário; 
-  (3) carrega preferências do usuário; 
-  (4) obtem a pagina para redirecionamento.
-    - index.html
-    - error.html
-
-"""
-
-
-
-
-
-
-
-
+# ver atividade no ava
