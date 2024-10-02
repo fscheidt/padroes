@@ -1,0 +1,9 @@
+## Virtual env
+
+Instalar virtual env sem permissão de superusuário:
+
+```
+python3 -m pip install virtualenv
+python3 -m virtualenv env
+source env/bin/activate
+```
