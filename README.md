@@ -1,6 +1,8 @@
-## Slides
+## Aulas
 
-- [Aula 1](https://docs.google.com/presentation/d/1CcVJ_LM3qVAEoyoOP34-ic-l42zTk5YAXqMAB77xDG8/edit?usp=sharing)
+- [Aula 1](slides/01-padroes-de-projetos.pdf)
+- [Aula 2](slides/02-factory.pdf)
+- [AVA](https://ava.ifpr.edu.br/course/view.php?id=12868)
 
 ## Virtual env
 
