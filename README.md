@@ -1,7 +1,5 @@
 ## Aulas
 
-- [Aula 1 - Introdução](slides/01-padroes-de-projetos.pdf)
-- [Aula 2 - Factory](slides/02-factory.pdf)
 - [AVA](https://ava.ifpr.edu.br/course/view.php?id=12868)
 
 ## Virtual env

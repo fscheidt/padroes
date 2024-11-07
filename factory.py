@@ -1,4 +1,5 @@
 from enum import Enum
+from fachada import ReservaFacade
 """ 
 PADRÃO DE PROJETO FACTORY 
     - fábrica de usuários
@@ -22,6 +23,8 @@ class UserType(Enum):  # tipo Enum
 class UserFactory:  # Fabrica de usuarios
     @staticmethod
     def create(type: str) -> UserAbstract:
+        fachada = ReservaFacade()
+        fachada.reserva_pacote()
         if type == UserType.admin.value:
             return Admin(100)
         elif type == UserType.user.value:
