@@ -1,0 +1,69 @@
+{
+    "titulo": "Questionário sobre Carros Fabricados no Brasil, Marcas e Peças",
+    "questoes": [
+      {
+        "id": 1,
+        "questao": "Qual foi o primeiro carro fabricado no Brasil?",
+        "opcoes": ["Volkswagen Fusca", "Chevrolet Opala", "Ford Corcel", "Fiat 147"],
+        "resposta": "Volkswagen Fusca",
+        "nivel_dificuldade": "Fácil",
+        "categoria": "História Automotiva"
+      },
+      {
+        "id": 2,
+        "questao": "Qual montadora lançou o primeiro carro 100% elétrico fabricado no Brasil?",
+        "opcoes": ["Chevrolet", "Nissan", "Volkswagen", "Renault"],
+        "resposta": "Nissan",
+        "nivel_dificuldade": "Médio",
+        "categoria": "Tecnologia"
+      },
+      {
+        "id": 3,
+        "questao": "A marca FIAT é originária de qual país?",
+        "opcoes": ["Alemanha", "Estados Unidos", "Itália", "França"],
+        "resposta": "Itália",
+        "nivel_dificuldade": "Fácil",
+        "categoria": "Marcas de Carros"
+      },
+      {
+        "id": 4,
+        "questao": "Em qual ano foi lançado o Volkswagen Gol no Brasil?",
+        "opcoes": ["1980", "1985", "1978", "1990"],
+        "resposta": "1980",
+        "nivel_dificuldade": "Médio",
+        "categoria": "História Automotiva"
+      },
+      {
+        "id": 5,
+        "questao": "Qual peça do carro é responsável pela ignição?",
+        "opcoes": ["Velas", "Radiador", "Bateria", "Freios"],
+        "resposta": "Velas",
+        "nivel_dificuldade": "Difícil",
+        "categoria": "Peças de Carro"
+      },
+      {
+        "id": 6,
+        "questao": "Qual empresa automotiva lançou o modelo Civic?",
+        "opcoes": ["Toyota", "Honda", "Nissan", "Subaru"],
+        "resposta": "Honda",
+        "nivel_dificuldade": "Médio",
+        "categoria": "Marcas de Carros"
+      },
+      {
+        "id": 7,
+        "questao": "O Fiat Uno foi lançado no Brasil em qual ano?",
+        "opcoes": ["1984", "1982", "1990", "1986"],
+        "resposta": "1984",
+        "nivel_dificuldade": "Fácil",
+        "categoria": "História Automotiva"
+      },
+      {
+        "id": 8,
+        "questao": "Qual é o principal combustível utilizado no Toyota Prius?",
+        "opcoes": ["Gasolina", "Álcool"],
+        "resposta": "Gasolina",
+        "nivel_dificuldade": "Difícil",
+        "categoria": "Tecnologia"
+      }
+    ]
+}
