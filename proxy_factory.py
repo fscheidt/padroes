@@ -9,8 +9,7 @@ class User:
     def get_id(self):
         return self.id
 
-
-class UserProxy:
+class UserProxy(User):
     """ Classe proxy que controla o acesso a classe User """
     def __init__(self, user):
         self._user = user  # RealSubject
@@ -36,10 +35,16 @@ class UserProxy:
         return getattr(self._user, attr)
 
 
+class UserFactory:  # Fabrica de usuarios
+    @staticmethod
+    def create(id: int) -> User:
+        # return User(id, "Alice")   # Real Object
+        return UserProxy(User(id, "Alice"))   # Proxy
+
+
 if __name__ == "__main__":
     try:
-        _user = User(1, "Alice") # RealSubject
-        user = UserProxy(_user)  # Proxy
+        user = UserFactory.create(1)
 
         print(f"ID: {user.get_id()}")         # Interceptado pelo Proxy
         print(f"User name: {user.name}")      # Proxy delega acesso ao atributo para RealSubject
