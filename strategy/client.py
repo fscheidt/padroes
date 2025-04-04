@@ -4,6 +4,7 @@ from context import HashContext
 def select_strategy():
     """ 
     Helper function - read user choice
+    TODO: mover para a Context (context.py)
     """
     print("-"*40)
     print("Algoritmos Hash disponiveis")
@@ -13,8 +14,7 @@ def select_strategy():
     2 - sha1
     """)
     choice = int(input("Escolha a opção: "))
-    # obs: essa logica poderia ser encapsulada numa factory
-    # TODO: mover para factory
+    # TODO: mover para factory em strategies.py
     from strategies import MD5Strategy, SHA1Strategy
     if choice==1: 
         strategy=MD5Strategy()
