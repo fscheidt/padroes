@@ -13,8 +13,17 @@
 
 </details>
 
-## Aula 1
-- [Herança e classe abstrata](/oo/pessoa.py)
+## Aula 3 - Strategy
+- 04/04/25
+- [Password Strategy](/strategy/client.py)
+
 
 ## Aula 2 - Factory
+- 21/03/25
 - [Image Factory](/factory/image_factory.py)
+
+
+## Aula 1
+- 14/03/25
+- [Herança e classe abstrata](/oo/pessoa.py)
+
