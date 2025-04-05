@@ -13,6 +13,13 @@
 
 </details>
 
+## Aula 5 - Apresentação das atividades
+- 02/05/25
+
+## Aula 4 - Observer
+- 11/04/25
+
+
 ## Aula 3 - Strategy
 - 04/04/25
 - [Password Strategy](/strategy/client.py)
