@@ -1,5 +1,7 @@
 # Padrões de projetos
 
+- https://docs.google.com/spreadsheets/d/1hEvajXYAJn9FrvfKXrn0Mc15YCBjJmM-jtYUVKcF3oI/edit?usp=sharing
+
 <details>
 <summary>INFO DA DISCIPLINA</summary>
 
