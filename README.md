@@ -15,6 +15,12 @@
 
 </details>
 
+
+# Aula 6 - Template method
+
+
+
+
 ## Aula 5 - Apresentação das atividades
 - 02/05/25
 
