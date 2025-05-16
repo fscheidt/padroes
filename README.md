@@ -15,11 +15,11 @@
 
 </details>
 
+# Aula 10 - Builder
+- 16/05/25
 
 # Aula 6 - Template method
-
-
-
+- 02/05/25
 
 ## Aula 5 - Apresentação das atividades
 - 02/05/25
