@@ -16,7 +16,7 @@
 
 ## Aula 1
 - [Herança e classe abstrata](/oo/pessoa.py)
-- [Slides](https://docs.google.com/presentation/d/1_MGVg6oXDgJOFk_ZJEbkdHc1txENC3_JAt1rkYWG97s/edit?usp=sharing)
+- [Slides](/slides/1-Padroes-de-projetos.pdf)
 
 ### Criar objetos
 
