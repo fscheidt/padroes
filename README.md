@@ -18,14 +18,7 @@
 - [Herança e classe abstrata](/oo/pessoa.py)
 - [Slides](/slides/1-Padroes-de-projetos.pdf)
 
-### Criar objetos
-
-```java
-// cria "rex" (instancia de Cachorro)
-Cachorro rex = new Cachorro();
-```
-
-
 ## Aula 2 - Factory
+- [Slides](https://docs.google.com/presentation/d/1DYipYILcicCNhy6b_i8-f7vmDZxSU2I7SCp1RbcDfxY/edit?usp=sharing)
 - [Image Factory](/factory/image_factory.py)
 
