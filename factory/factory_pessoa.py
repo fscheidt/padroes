@@ -3,6 +3,11 @@ from models import (
     PessoaFisica, 
     PessoaJuridica
 )
+from enum import Enum
+
+class TipoPessoa(Enum):
+    PF = "PF"
+    PJ = "PJ"
 
 def create_pessoa(tipo: str, nome: str = None) -> Pessoa:
     if tipo == "PF":
