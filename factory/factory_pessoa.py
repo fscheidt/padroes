@@ -1,19 +1,15 @@
-from models import (
-    Pessoa, 
-    PessoaFisica, 
-    PessoaJuridica
-)
+import models
 from enum import Enum
 
-class TipoPessoa(Enum):
+class TipoPessoa(str, Enum):
     PF = "PF"
     PJ = "PJ"
 
-def create_pessoa(tipo: str, nome: str = None) -> Pessoa:
-    if tipo == "PF":
-        return PessoaFisica(nome)
-    if tipo == "PJ":
-        return PessoaJuridica(nome)
+def create_pessoa(tipo: TipoPessoa, nome: str = None) -> models.Pessoa:
+    if tipo == TipoPessoa.PF:
+        return models.PessoaFisica(nome)
+    if tipo == TipoPessoa.PJ:
+        return models.PessoaJuridica(nome)
     else:
         raise Exception(f"{tipo} nao existe")
 

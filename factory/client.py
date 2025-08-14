@@ -8,13 +8,13 @@ if __name__ == "__main__":
 
     # (COM FACTORY)
     # obter a instancia chamando o factory
-    pf = create_pessoa(TipoPessoa.PF.value)
+    pf = create_pessoa(TipoPessoa.PF)
     pf.nome = "Maria"
     print(pf)
     # TODO:
     # pf.calculaIR() 
 
-    pj = create_pessoa(TipoPessoa.PJ.value, "SuperDia")
+    pj = create_pessoa(TipoPessoa.PJ, "SuperDia")
     print(pj)
     # TODO:
     # pj.calculaIR()

@@ -4,6 +4,7 @@ class Pessoa(ABC):
         self.nome = nome
         self.renda = renda
 
+    # @abstractmethod
     def calculaIR(self) -> float:
         pass
 
