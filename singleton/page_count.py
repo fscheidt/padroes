@@ -34,7 +34,7 @@ if __name__ == "__main__":
     page.add_visiter()
     print(id(page)) # endereco de memoria
 
-    page2 = PageViews.get_instance()
+    page2 = PageViews()
     page2.add_visiter()
     print(id(page2)) # endereco de memoria
 
