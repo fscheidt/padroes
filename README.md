@@ -14,17 +14,18 @@
 </details>
 
 
-## Aula 1
+## Aula 1 - OOP
 - [Herança e classe abstrata](/oo/pessoa.py)
-- Slides (AVA)
 
 ## Aula 2 - Factory
 - [Factory](/factory)
-- Slides (AVA)
 
-## Aula 3
+## Aula 3 - Strategy
 - [Strategy](/strategy/strategies.py)
 
-## Aula 4 
+## Aula 4 - Façade e Singleton
 - [Façade](/facade/pacotes.py)
 - [Singleton](/singleton/page_count.py)
+
+## Aula 6 - Builder
+
