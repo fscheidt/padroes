@@ -23,3 +23,8 @@
 - Slides (AVA)
 
 ## Aula 3
+- [Strategy](/strategy/strategies.py)
+
+## Aula 4 
+- [Façade](/facade/pacotes.py)
+- [Singleton](/singleton/page_count.py)

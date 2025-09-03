@@ -4,6 +4,7 @@ from transporte import ReservaTransporte
 
 class PacoteFacade:
     """ 
+    [1] FACADE
     Fornece uma interface unificada para simplificar o processo de 
     reserva de pacotes turísticos que envolvem aéreo, hospedagem e transporte
     """
