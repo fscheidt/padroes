@@ -2,7 +2,10 @@ from abc import ABC, abstractmethod
 import hashlib
 
 class HashStrategy(ABC):
-    """ Define a familia de algoritmos de hash do password """
+    """
+    [1] STRATEGY 
+    Define a familia de algoritmos de hash do password 
+    """
     @abstractmethod
     def encrypt(self, password: str) -> str:
         pass
@@ -14,15 +17,25 @@ class Md5Strategy(HashStrategy):
 class Sha1Strategy(HashStrategy):
     def encrypt(self, password: str) -> str:
         return hashlib.sha1(password.encode()).hexdigest()
-    
-# ======================
-def create(choice: int) -> HashStrategy:
-    """ Factory (auxiliar na criacao de estrategias) """
-    # TODO: tornar dinamico
-    if choice == 1:
-        return Md5Strategy()
-    if choice == 2:
-        return Sha1Strategy()
-    raise ValueError("unknow strategy")
 
+# Dicionário para expor as estratégias disponíveis
+HASH_TYPES = {
+    "md5": Md5Strategy,
+    "sha1": Sha1Strategy,
+    # "sha256": Sha256Strategy,
+}
 
+# ======================================
+# Essa factory não faz parte do padrão Strategy
+# Seu propósito é apenas facilitar a instanciação 
+# das estratégias
+def create(name: str, **kwargs) -> HashStrategy:
+    """
+    Factory de estrategias. 
+        Uso: create("sha1")
+    """
+    try:
+        cls = HASH_TYPES[name.lower()]
+        return cls(**kwargs)
+    except KeyError:
+        raise ValueError(f"unknown hash strategy: {name!r}") from None

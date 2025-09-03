@@ -1,7 +1,9 @@
 from context import select_strategy
 
 # =======================================
-# Classe cliente: obtem uma estrategia atraves do contexto
+# [3] - CLIENTE 
+#       pede ao contexto por uma estrategia
+#       desconhece as classes concretas
 
 if __name__ == "__main__":
     """ Runtime code """
