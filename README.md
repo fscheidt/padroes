@@ -18,14 +18,15 @@
 - [Herança e classe abstrata](/oo/pessoa.py)
 
 ## Aula 2 - Factory
-- [Factory](/factory)
+- [Factory (pessoa)](/factory)
 
 ## Aula 3 - Strategy
-- [Strategy](/strategy/strategies.py)
+- [Strategy (password)](/strategy/strategies.py)
 
 ## Aula 4 - Façade e Singleton
-- [Façade](/facade/pacotes.py)
-- [Singleton](/singleton/page_count.py)
+- [Façade (pacotes)](/facade/pacotes.py)
+- [Singleton (visitantes)](/singleton/page_count.py)
 
 ## Aula 6 - Builder
 
+- [builder (notebook)](/builder/builder.py)
