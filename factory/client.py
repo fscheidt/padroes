@@ -1,6 +1,7 @@
-from factory_pessoa import (
-    create_pessoa, TipoPessoa
-)
+import factory
+
+TipoPessoa = factory.TipoPessoa
+
 if __name__ == "__main__":
     # (SEM FACTORY)
     # cria instancia a partir da classe concreta
@@ -8,13 +9,14 @@ if __name__ == "__main__":
 
     # (COM FACTORY)
     # obter a instancia chamando o factory
-    pf = create_pessoa(TipoPessoa.PF)
+    
+    pf = factory.create_pessoa(TipoPessoa.PF)
     pf.nome = "Maria"
-    print(pf)
+    print(pf.__dict__)
     # TODO:
     # pf.calculaIR() 
 
-    pj = create_pessoa(TipoPessoa.PJ, "SuperDia")
-    print(pj)
+    pj = factory.create_pessoa(TipoPessoa.PJ, "SuperDia")
+    print(pj.__dict__)
     # TODO:
     # pj.calculaIR()
