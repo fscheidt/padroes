@@ -28,5 +28,6 @@
 - [Singleton (visitantes)](/singleton/page_count.py)
 
 ## Aula 6 - Builder
-
 - [builder (notebook)](/builder/builder.py)
+
+## Aula 7 - Método Template
