@@ -31,3 +31,5 @@
 - [builder (notebook)](/builder/builder.py)
 
 ## Aula 7 - Método Template
+
+## Aula 8 - Observer
