@@ -17,3 +17,5 @@
 ## Aula 1 
 
 - [Introdução aos padrões de projetos](https://docs.google.com/presentation/d/1_MGVg6oXDgJOFk_ZJEbkdHc1txENC3_JAt1rkYWG97s/edit?usp=sharing)
+
+- [Planilha](https://docs.google.com/spreadsheets/d/17L42K65rAYkaPcG45hz5duvtaK_mPFKueJsZaqmCq9U/edit?usp=sharing)
