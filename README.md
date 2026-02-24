@@ -16,7 +16,7 @@
 
 ## Aula 1 
 
-- [Introdução aos padrões de projetos](https://docs.google.com/presentation/d/1_MGVg6oXDgJOFk_ZJEbkdHc1txENC3_JAt1rkYWG97s/edit?usp=sharing)
+- Introdução aos padrões de projetos (slides no **[AVA](https://ava.ifpr.edu.br/course/view.php?id=14555)**)
 
 - Analisar os arquivos [codigo1](aulas/01/codigo1.py) e [codigo2](aulas/01/codigo2.py)
     - listar as entidades encontradas conforme a [Planilha](https://docs.google.com/spreadsheets/d/17L42K65rAYkaPcG45hz5duvtaK_mPFKueJsZaqmCq9U/edit?usp=sharing)
