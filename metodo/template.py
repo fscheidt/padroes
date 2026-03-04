@@ -31,7 +31,7 @@ class Pagamento(ABC):
     
     @final
     def realizar_pagamento(self, valor):
-        """ Método template """
+        """ MÉTODO TEMPLATE """
         # 1. validação
         print("1 - validação de valores, descontos, parcelas, ...")
         self.validate(valor)
@@ -51,18 +51,10 @@ class Pix(Pagamento):
         print(f"3 - pagamento {self.valor} realizado (pix)")
 
 class Bitcoin(Pagamento):
-    def pagar(self):
+    def gerar_nota(self): # opcional
+        print("4 - não necessário")
+    def pagar(self): # obrigatorio
         self.valor = self.valor * 0.9
         print(f"3 - pagamento de {self.valor} realizado (Bitcoin)")
-    def gerar_nota(self):
-        print("4 - não necessário")
 
-
-# cliente
-if __name__ == "__main__":
-    pgto = Pix()
-    pgto.realizar_pagamento(1000)
-    print("="*40)
-    pgto = Bitcoin()
-    pgto.realizar_pagamento(1000) # desconto de 10%
 
