@@ -21,6 +21,17 @@
 - Arquivos python para análise: [codigo1](aulas/01/codigo1.py) e [codigo2](aulas/01/codigo2.py)
 
 
-## Aula 2 
+## 2 - Factory
 
-- **Factory** (criacional)
+## 3 - Método template
+
+## 4 - Façade
+
+## 5 - Singleton
+
+```python
+class PageView:
+    """ mantem contador de visualizacoes """
+    _instance = None  
+    ...
+```
